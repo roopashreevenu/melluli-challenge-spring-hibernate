@@ -11,6 +11,11 @@
 * Open the repository in your favourite IDE (IntelliJ IDEA or Eclipse may be?). The repository has IntelliJ IDEA project files to get going out of the box.
 * Run the application from your IDE and follow the instructions on screen staring from the index file
 
+## Submitting Work
+
+* Fork this repository, make changes, commit, push to your fork and submit your fork url
+* Make your repository public 
+
 ## Evaluation Criteria
 
 * Finishing all the tasks
