@@ -9,7 +9,7 @@
 * Run the script <code>db/init.sql</code> in your database to load schema and sample data
 * Install `Apache Tomcat 8` or newer
 * Open the repository in your favourite IDE (IntelliJ IDEA or Eclipse may be?). The repository has IntelliJ IDEA project files to get going out of the box.
-* Run the application from your IDE and follow the instructions on screen staring from the index file
+* Run the application from your IDE and follow the instructions on screen starting from the index file
 
 ## Submitting Work
 
