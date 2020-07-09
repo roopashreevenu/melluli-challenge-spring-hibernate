@@ -22,6 +22,11 @@
     </ol>
     <p>Revert to us for any clarifications</p>
     <br>
+
+    <form action = "users.form">
+       <button type="submit"> Go to User Page </button>
+    </form>
+
     <p class="footer">Created by <a href="https://melluli.com">Melluli Technologies</a> for "Coding Challenge"</p>
 </body>
 </html>

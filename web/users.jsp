@@ -3,6 +3,11 @@
 <html>
 <head>
     <title>Users</title>
+    <style>
+        th, td{
+           border: 1px solid black;
+        }
+    </style>
 </head>
 <body>
     <h2>Users</h2>
@@ -19,17 +24,20 @@
             <th>Id</th>
             <th>Name</th>
             <th>Gender</th>
+            <th>Age</th>
             <th>City</th>
             <th>Country</th>
         </tr>
         <c:forEach items="${users}" var="user">
             <tr>
-                <td>${user.id}</td>
+                <td><a href="user.form?uid=${user.id}&nmi=">${user.id}</a></td>
                 <td>${user.name}</td>
                 <td>${user.gender}</td>
+                <td>${user.age}</td>
                 <td>${user.city}</td>
                 <td>${user.country}</td>
             </tr>
         </c:forEach>
     </table>
 </body>
+</html>

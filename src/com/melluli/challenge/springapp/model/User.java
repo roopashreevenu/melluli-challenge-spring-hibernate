@@ -1,7 +1,6 @@
 package com.melluli.challenge.springapp.model;
 
 import javax.persistence.*;
-import javax.xml.bind.annotation.XmlAttribute;
 
 @Entity(name = "user")
 @Table(name = "user")
@@ -12,6 +11,9 @@ public class User {
     private String gender;
     private String city;
     private String country;
+
+    @Column(name = "age")
+    private String age;
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -54,4 +56,8 @@ public class User {
     public void setCountry(String country) {
         this.country = country;
     }
+
+    public String getAge() { return age; }
+
+    public void setAge(String age) {  this.age = age; }
 }
