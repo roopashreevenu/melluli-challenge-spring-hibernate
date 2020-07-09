@@ -13,7 +13,7 @@ public class User {
     private String country;
 
     @Column(name = "age")
-    private String age;
+    private int age;
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -57,7 +57,7 @@ public class User {
         this.country = country;
     }
 
-    public String getAge() { return age; }
+    public int getAge() { return age; }
 
-    public void setAge(String age) {  this.age = age; }
+    public void setAge(int age) { this.age = age; }
 }
