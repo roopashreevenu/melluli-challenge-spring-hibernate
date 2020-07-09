@@ -57,7 +57,11 @@ public class User {
         this.country = country;
     }
 
-    public int getAge() { return age; }
+	public int getAge() {
+		return age;
+	}
 
-    public void setAge(int age) { this.age = age; }
+	public void setAge(int age) {
+		this.age = age;
+	}
 }
